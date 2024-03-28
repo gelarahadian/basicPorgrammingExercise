@@ -9,7 +9,6 @@
 price =  int(input("Enter Price: "))
 
 if (price > 100): 
-    
     discount = int(price * 0.1)
     total_cost = price - discount
     print("Cost grather than $100")
